@@ -12,7 +12,6 @@ angular.module("TeamApp", ['ngRoute'])
             .when("/agustin", {
                 templateUrl: "/templates/agustin.html"
             })
-            .otherwise('/')
 
     })
     .controller("MainController", ['$scope', function ($scope) {
