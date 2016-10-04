@@ -1,6 +1,6 @@
 angular.module("TeamApp", ['ngRoute'])
 
-    .config(function ($routeProvider) {
+.config(function ($routeProvider) {
         $routeProvider.otherwise({
                 templateUrl: "/templates/home.html"
             })
@@ -9,6 +9,9 @@ angular.module("TeamApp", ['ngRoute'])
             })
             .when("/tanner", {
                 templateUrl: "/templates/tanner.html"
+            })
+            .when("/evan", {
+                templateUrl: "/templates/evan.html"
             })
             .when("/devin", {
                 templateUrl: "/templates/devin.html"
@@ -21,15 +24,19 @@ angular.module("TeamApp", ['ngRoute'])
             })
             .when("/michael", {
                 templateUrl: "/templates/michael.html"
+            })
+            .when("/antonio", {
+                templateUrl: "/templates/anthony.html"
+            })
+            .when("/nate", {
+                templateUrl: "/templates/nate.html"
+            })
+            .when("/susan", {
+                templateUrl: "/templates/susan.html"
             });
-
-
-
-
 
     })
     .controller("MainController", ['$scope', function ($scope) {
-
         $scope.test = "Hello World";
 
-}]);
+    }]);
