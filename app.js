@@ -14,9 +14,13 @@ angular.module("TeamApp", ['ngRoute'])
     })
     .when("/evan", {
         templateUrl: "/templates/evan.html"
-    })
-})
-.controller("MainController", ['$scope', function($scope){
+    });
+    .when("/michael", {
+        templateUrl: "/templates/michael.html"
+    });
+});
+
+.controller("MainController", ['$scope', function($scope) {
 
     $scope.test = "Hello World";
 
