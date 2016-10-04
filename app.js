@@ -34,6 +34,7 @@ angular.module("TeamApp", ['ngRoute'])
             .when("/susan", {
                 templateUrl: "/templates/susan.html"
             });
+
     })
     .controller("MainController", ['$scope', function ($scope) {
         $scope.test = "Hello World";
