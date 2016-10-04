@@ -12,7 +12,9 @@ angular.module("TeamApp", ['ngRoute'])
     .when("/evan", {
         templateUrl: "/templates/evan.html"
     })
-
+    .when("/susan", {
+        templateUrl: "/templates/susan.html"
+    })
 })
 .controller("MainController", ['$scope', function($scope){
 
