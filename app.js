@@ -10,6 +10,9 @@ angular.module("TeamApp", ['ngRoute'])
             .when("/tanner", {
                 templateUrl: "/templates/tanner.html"
             })
+            .when("/evan", {
+                templateUrl: "/templates/tanner.html"
+            })
             .when("/devin", {
                 templateUrl: "/templates/devin.html"
             })
