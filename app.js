@@ -28,8 +28,8 @@ angular.module("TeamApp", ['ngRoute'])
         });
 
 })
-    .controller("MainController", ['$scope', function ($scope) {
+.controller("MainController", ['$scope', function ($scope) {
 
-        $scope.test = "Hello World";
+    $scope.test = "Hello World";
 
 }]);
