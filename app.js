@@ -7,6 +7,9 @@ angular.module("TeamApp", ['ngRoute'])
         templateUrl: "/templates/home.html"
 
     })
+    .when("/antonio", {
+        templateUrl: "/templates/anthony.html"
+    })
 
 })
 .controller("MainController", ['$scope', function($scope){
