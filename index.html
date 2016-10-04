@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="TeamApp">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body ng-controller="MainController">
-<nav>
-    <brand>TEAMWORK!</brand>
-    <a href="#/home">Home</a>
-    <div>
-        <a href="#/evan" style="font-size:3em">Ev's Page</a>
-    </div>
-</nav>
+    <nav>
+        <brand>TEAMWORK!</brand>
+        <a href="#/home">Home</a>
+        <a href="#/evan" style="margin: 0 10px">Ev's Page</a>
+        <a href="#/tanner">Tanner</a>
+    </nav>
     <div ng-view></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
     <script src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
